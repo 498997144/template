@@ -1,0 +1,31 @@
+body {
+    background: #fff;
+    font-size: 12px;
+    font-family: -apple-system,Helvetica,sans-serif Microsoft YaHei;
+    line-height: 1;
+    color: #666;
+    overflow-x:hidden;
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior:smooth
+}
+
+.clearfix::after,.clearfix::before {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.overflow{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.linkActive{
+    color: red!important;
+}
