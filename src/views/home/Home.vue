@@ -1,6 +1,6 @@
 <template>
   <div class="home-container">
-    这是home
+    这是home组件
   </div>
 </template>
 
